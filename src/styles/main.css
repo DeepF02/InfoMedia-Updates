@@ -73,15 +73,15 @@ font-weight: 300;
 }
 
 @media (max-width: 800px) {
-.my-masonry-grid {
-  margin-left: -15px; /* gutter size offset */
-}
-.my-masonry-grid_column {
-  padding-left: 15px; /* gutter size offset */
-}
-.my-masonry-grid_column > div {
-  margin-bottom: 15px; /* space between items */
-}
+  .my-masonry-grid {
+    margin-left: -15px; /* gutter size offset */
+  }
+  .my-masonry-grid_column {
+    padding-left: 15px; /* gutter size offset */
+  }
+  .my-masonry-grid_column > div {
+    margin-bottom: 15px; /* space between items */
+  }
 }
 
 /*////////////////////////////////////
@@ -89,9 +89,13 @@ font-weight: 300;
 /////////////////////////////////////*/
 
 .newsletter_container {
-margin-top: 20px;
-border-top: 5px solid #3c3c3c;
-padding-top: 20px;
+  margin-top: 20px;
+  border-top: 5px solid #3c3c3c;
+  padding-top: 20px;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px; */
 }
 
 .newsletter_container h1 {
